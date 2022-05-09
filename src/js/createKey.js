@@ -41,7 +41,7 @@ class Key extends Everything {
 	
 	initEverythingBtnClickEventListener(everythingBtn) {
 		everythingBtn.node.addEventListener('click', (event) => {
-			console.log(event);
+			// console.log(event);
 		});
 	}
 
