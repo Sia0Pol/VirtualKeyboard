@@ -43,7 +43,7 @@ const config = {
     new MiniCssExtractPlugin({
       filename: filename('css')
     }),
-    // new CleanWebpackPlugin()
+    new CleanWebpackPlugin()
   ]
 };
 

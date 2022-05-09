@@ -52,7 +52,6 @@ class Key extends Everything {
 			if (event.shiftKey === true && event.altKey === true) {
 				this.changeLanguage();
 			}
-
 			
 		});
 	}
@@ -63,7 +62,7 @@ class Key extends Everything {
 		for (const everythingBtn of this.everythingBtnArr) {
 			const dataCode = everythingBtn.node.getAttribute('data-code');
 			const keyLetterObj = getKeyLetterByCode(dataCode);
-			
+
 			if (this.language === 'ru' && this.registerCaps === false) {
 				everythingBtn.node.textContent = keyLetterObj.key.ru;
 			} else if (this.language === 'en' && this.registerCaps === false) {

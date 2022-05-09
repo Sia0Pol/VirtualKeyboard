@@ -4,7 +4,8 @@
 	"description": "keyboard",
 	"main": "index.js",
 	"scripts": {
-		"start": "webpack-dev-server --mode development --open"
+		"start": "webpack-dev-server --mode development --open",
+		"build": "npx webpack --mode production"
 	},
 	"repository": {
 		"type": "git",
