@@ -2,7 +2,7 @@ name: virtual-keyboard CI/CD
 on:
   push:
     branches:
-      - master
+      - keyboard
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -28,7 +28,7 @@ jobs:
       - name: Build
         run: |
           npm run build
-          
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.3
         with:
