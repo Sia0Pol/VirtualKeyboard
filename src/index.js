@@ -8,6 +8,8 @@ createHeaderContainer('body');
 createTextarea('.container');
 createKey('.container');
 
+console.log(1);
+
 const inputNode = document.querySelector('.input');
 const rowsNode = document.querySelectorAll('.row');
 const capsNode = document.querySelector('.CapsLock');
